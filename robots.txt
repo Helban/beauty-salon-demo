@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lumea-studio.pl/sitemap.xml
+Sitemap: https://salon.helban.dev/sitemap.xml

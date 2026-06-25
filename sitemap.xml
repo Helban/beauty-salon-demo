@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://lumea-studio.pl/</loc>
+    <loc>https://salon.helban.dev/</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://lumea-studio.pl/o-nas.html</loc>
+    <loc>https://salon.helban.dev/o-nas.html</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://lumea-studio.pl/uslugi.html</loc>
+    <loc>https://salon.helban.dev/uslugi.html</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lumea-studio.pl/realizacje.html</loc>
+    <loc>https://salon.helban.dev/realizacje.html</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lumea-studio.pl/blog.html</loc>
+    <loc>https://salon.helban.dev/blog.html</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lumea-studio.pl/kontakt.html</loc>
+    <loc>https://salon.helban.dev/kontakt.html</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
