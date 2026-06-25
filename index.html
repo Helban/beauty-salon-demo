@@ -15,15 +15,14 @@
   <meta property="og:title" content="Luméa — Studio Kosmetyczne w Warszawie">
   <meta property="og:description" content="Pielęgnacja twarzy, paznokcie, makijaż permanentny i zabiegi SPA. Rezerwacja online.">
   <meta property="og:url" content="https://salon.helban.dev/">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1200&h=630&q=70">
+  <meta property="og:image" content="https://salon.helban.dev/img/1560869713-7d0a29430803-w1200-h630.webp">
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=optional">
 
-  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1600&h=1000&q=70" fetchpriority="high">
+  <link rel="preload" as="image" href="img/1560869713-7d0a29430803-w800-h500.webp"
+        imagesrcset="img/1560869713-7d0a29430803-w800-h500.webp 800w, img/1560869713-7d0a29430803-w1600-h1000.webp 1600w"
+        imagesizes="100vw" fetchpriority="high">
 
   <link rel="stylesheet" href="css/styles.css">
 
@@ -32,7 +31,7 @@
     "@context": "https://schema.org",
     "@type": "BeautySalon",
     "name": "Luméa Studio Kosmetyczne",
-    "image": "https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1200&q=70",
+    "image": "https://salon.helban.dev/img/1560869713-7d0a29430803-w1200.webp",
     "url": "https://salon.helban.dev/",
     "telephone": "+48 22 123 45 67",
     "priceRange": "$$",
@@ -83,15 +82,17 @@
     <section class="hero" aria-label="Powitanie">
       <div class="hero-slider" data-slider>
         <figure class="hero-slide is-active" data-slide>
-          <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1600&h=1000&q=70"
+          <img src="img/1560869713-7d0a29430803-w1600-h1000.webp"
+               srcset="img/1560869713-7d0a29430803-w800-h500.webp 800w, img/1560869713-7d0a29430803-w1600-h1000.webp 1600w"
+               sizes="100vw"
                width="1600" height="1000" alt="Wnętrze studia kosmetycznego Luméa" fetchpriority="high" decoding="async">
         </figure>
         <figure class="hero-slide" data-slide aria-hidden="true">
-          <img src="https://images.unsplash.com/photo-1731514771613-991a02407132?auto=format&fit=crop&w=1600&h=1000&q=70"
+          <img src="img/1731514771613-991a02407132-w1600-h1000.webp"
                width="1600" height="1000" alt="Zabieg pielęgnacyjny twarzy" loading="lazy" decoding="async">
         </figure>
         <figure class="hero-slide" data-slide aria-hidden="true">
-          <img src="https://images.unsplash.com/photo-1610992015762-45dca7fa3a85?auto=format&fit=crop&w=1600&h=1000&q=70"
+          <img src="img/1610992015762-45dca7fa3a85-w1600-h1000.webp"
                width="1600" height="1000" alt="Stylizacja paznokci" loading="lazy" decoding="async">
         </figure>
       </div>
@@ -118,7 +119,7 @@
     <section class="about section" aria-labelledby="about-title">
       <div class="container about-grid">
         <div class="about-media">
-          <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?auto=format&fit=crop&w=900&h=1100&q=70"
+          <img src="img/1633681926022-84c23e8cb2d6-w900-h1100.webp"
                width="900" height="1100" alt="Kosmetolożka przy pracy w studiu Luméa" loading="lazy" decoding="async">
         </div>
         <div class="about-text">
@@ -148,7 +149,7 @@
         <ul class="service-grid">
           <li class="service-card">
             <div class="service-media">
-              <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&h=600&q=70"
+              <img src="img/1570172619644-dfd03ed5d881-w800-h600.webp"
                    width="800" height="600" alt="Pielęgnacja twarzy" loading="lazy" decoding="async">
             </div>
             <div class="service-body">
@@ -159,7 +160,7 @@
           </li>
           <li class="service-card">
             <div class="service-media">
-              <img src="https://images.unsplash.com/photo-1610992015762-45dca7fa3a85?auto=format&fit=crop&w=800&h=600&q=70"
+              <img src="img/1610992015762-45dca7fa3a85-w800-h600.webp"
                    width="800" height="600" alt="Stylizacja paznokci" loading="lazy" decoding="async">
             </div>
             <div class="service-body">
@@ -170,7 +171,7 @@
           </li>
           <li class="service-card">
             <div class="service-media">
-              <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&h=600&q=70"
+              <img src="img/1596462502278-27bfdc403348-w800-h600.webp"
                    width="800" height="600" alt="Makijaż permanentny" loading="lazy" decoding="async">
             </div>
             <div class="service-body">
@@ -197,11 +198,11 @@
 
         <ul class="gallery-grid">
           <li><a class="gallery-item" href="realizacje.html" aria-label="Zobacz galerię realizacji">
-            <img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=600&h=750&q=70" width="600" height="750" alt="Realizacja pielęgnacyjna" loading="lazy" decoding="async"></a></li>
+            <img src="img/1600948836101-f9ffda59d250-w600-h750.webp" width="600" height="750" alt="Realizacja pielęgnacyjna" loading="lazy" decoding="async"></a></li>
           <li><a class="gallery-item" href="realizacje.html" aria-label="Zobacz galerię realizacji">
-            <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=600&h=750&q=70" width="600" height="750" alt="Makijaż wykonany w studiu" loading="lazy" decoding="async"></a></li>
+            <img src="img/1616394584738-fc6e612e71b9-w600-h750.webp" width="600" height="750" alt="Makijaż wykonany w studiu" loading="lazy" decoding="async"></a></li>
           <li><a class="gallery-item" href="realizacje.html" aria-label="Zobacz galerię realizacji">
-            <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=600&h=750&q=70" width="600" height="750" alt="Detal zabiegu kosmetycznego" loading="lazy" decoding="async"></a></li>
+            <img src="img/1580618672591-eb180b1a973f-w600-h750.webp" width="600" height="750" alt="Detal zabiegu kosmetycznego" loading="lazy" decoding="async"></a></li>
         </ul>
 
         <div class="section-actions">
