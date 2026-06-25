@@ -1,0 +1,9 @@
+{
+  // Static-assets-only Worker: serves the hand-coded site from the repo root.
+  // No Worker script, no build step. Deployed via `npx wrangler deploy`.
+  "name": "beauty-salon-demo",
+  "compatibility_date": "2025-06-01",
+  "assets": {
+    "directory": "./"
+  }
+}
