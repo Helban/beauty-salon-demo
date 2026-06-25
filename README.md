@@ -5,7 +5,7 @@ premium salon/spa site looks and performs when it is hand-coded instead of
 assembled from a heavy WordPress theme. No framework, no build step, no page
 builder. Just semantic HTML, one CSS file, and ~150 lines of vanilla JS.
 
-**Live demo:** _deploy to Netlify/Vercel/GitHub Pages, then put the URL here._
+**Live demo:** https://helban.github.io/beauty-salon-demo/
 
 ![Luméa beauty salon demo](https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1200&q=60)
 
