@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Luméa">
+  <rect width="64" height="64" rx="16" fill="#8C5560"/>
+  <text x="32" y="44" text-anchor="middle"
+        font-family="Georgia, 'Playfair Display', serif" font-size="40" font-weight="700" fill="#FAF6F2">L</text>
+  <circle cx="44" cy="20" r="3.2" fill="#BFA06A"/>
+</svg>

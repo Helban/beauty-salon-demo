@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Luméa — Studio Kosmetyczne w Warszawie | Twarz, Paznokcie, SPA</title>
+  <meta name="description" content="Luméa to studio kosmetyczne na Mokotowskiej w Warszawie. Pielęgnacja twarzy, stylizacja paznokci, makijaż permanentny, rzęsy i zabiegi SPA. Zarezerwuj wizytę online.">
+  <meta name="theme-color" content="#8C5560">
+  <link rel="canonical" href="https://lumea-studio.pl/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:site_name" content="Luméa Studio Kosmetyczne">
+  <meta property="og:title" content="Luméa — Studio Kosmetyczne w Warszawie">
+  <meta property="og:description" content="Pielęgnacja twarzy, paznokcie, makijaż permanentny i zabiegi SPA. Rezerwacja online.">
+  <meta property="og:url" content="https://lumea-studio.pl/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1200&h=630&q=70">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- Fonts: preconnect then swap to avoid invisible text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=optional">
+
+  <!-- Preload the hero (LCP) image -->
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1600&h=1000&q=70" fetchpriority="high">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Local business structured data for technical SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Luméa Studio Kosmetyczne",
+    "image": "https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1200&q=70",
+    "url": "https://lumea-studio.pl/",
+    "telephone": "+48 22 123 45 67",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Mokotowska 12",
+      "addressLocality": "Warszawa",
+      "postalCode": "00-561",
+      "addressCountry": "PL"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 52.2230, "longitude": 21.0190 },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "20:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "16:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#tresc">Przejdź do treści</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        Lum<span class="brand-accent">é</span>a
+        <small>studio kosmetyczne</small>
+      </a>
+
+      <nav class="main-nav" aria-label="Nawigacja główna">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Otwórz menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#o-nas">O nas</a></li>
+          <li><a href="#uslugi">Usługi</a></li>
+          <li><a href="#realizacje">Realizacje</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+          <li><a class="btn btn-primary nav-cta" href="#kontakt">Rezerwacja</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="tresc">
+
+    <!-- HERO + SLIDER -->
+    <section class="hero" id="start" aria-label="Powitanie">
+      <div class="hero-slider" data-slider>
+        <figure class="hero-slide is-active" data-slide>
+          <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1600&h=1000&q=70"
+               width="1600" height="1000" alt="Wnętrze studia kosmetycznego Luméa" fetchpriority="high" decoding="async">
+        </figure>
+        <figure class="hero-slide" data-slide aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1731514771613-991a02407132?auto=format&fit=crop&w=1600&h=1000&q=70"
+               width="1600" height="1000" alt="Zabieg pielęgnacyjny twarzy" loading="lazy" decoding="async">
+        </figure>
+        <figure class="hero-slide" data-slide aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1610992015762-45dca7fa3a85?auto=format&fit=crop&w=1600&h=1000&q=70"
+               width="1600" height="1000" alt="Stylizacja paznokci" loading="lazy" decoding="async">
+        </figure>
+      </div>
+
+      <div class="hero-overlay">
+        <div class="container hero-content">
+          <p class="eyebrow">Warszawa · Mokotowska 12</p>
+          <h1>Piękno w spokojnym rytmie</h1>
+          <p class="hero-lead">Kameralne studio kosmetyczne, w którym pielęgnacja twarzy, paznokci i ciała dzieje się bez pośpiechu. Zabiegi dobrane do Twojej skóry, nie do cennika.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#kontakt">Zarezerwuj wizytę</a>
+            <a class="btn btn-ghost" href="#uslugi">Zobacz usługi</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-dots" role="tablist" aria-label="Wybór slajdu">
+        <button class="hero-dot is-active" role="tab" aria-selected="true" aria-label="Slajd 1" data-dot></button>
+        <button class="hero-dot" role="tab" aria-selected="false" aria-label="Slajd 2" data-dot></button>
+        <button class="hero-dot" role="tab" aria-selected="false" aria-label="Slajd 3" data-dot></button>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="o-nas" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-media">
+          <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?auto=format&fit=crop&w=900&h=1100&q=70"
+               width="900" height="1100" alt="Kosmetolożka przy pracy w studiu Luméa" loading="lazy" decoding="async">
+        </div>
+        <div class="about-text">
+          <p class="eyebrow">O nas</p>
+          <h2 id="about-title">Miejsce, do którego wraca się dla efektu i dla ciszy</h2>
+          <p>Luméa powstała z prostego założenia: dobra kosmetyka to czas i uważność, nie taśma produkcyjna. Prowadzimy jeden fotel na jedną klientkę, bez nakładających się wizyt. Każdy zabieg zaczynamy od analizy skóry i kończymy planem pielęgnacji do domu.</p>
+          <p>Pracujemy na sprawdzonych liniach profesjonalnych i sprzęcie, który serwisujemy co kwartał. Bez obietnic bez pokrycia, za to z efektem, który widać na zdjęciu po, nie tylko w opisie.</p>
+          <ul class="stats" aria-label="Liczby">
+            <li><strong>9</strong><span>lat doświadczenia</span></li>
+            <li><strong>4 200</strong><span>wykonanych zabiegów</span></li>
+            <li><strong>4,9 / 5</strong><span>średnia ocen klientek</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section section-muted" id="uslugi" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Usługi</p>
+          <h2 id="services-title">Zabiegi i ceny</h2>
+          <p class="section-sub">Ceny orientacyjne, od. Dokładną wycenę ustalamy po krótkiej konsultacji, która jest bezpłatna.</p>
+        </header>
+
+        <ul class="service-grid">
+          <li class="service-card">
+            <div class="service-media">
+              <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&h=600&q=70"
+                   width="800" height="600" alt="Pielęgnacja twarzy" loading="lazy" decoding="async">
+            </div>
+            <div class="service-body">
+              <h3>Pielęgnacja twarzy</h3>
+              <p>Oczyszczanie, peelingi kwasowe, mezoterapia mikroigłowa i rytuały nawilżające dobrane pod typ skóry.</p>
+              <p class="service-price">od 180 zł</p>
+            </div>
+          </li>
+          <li class="service-card">
+            <div class="service-media">
+              <img src="https://images.unsplash.com/photo-1610992015762-45dca7fa3a85?auto=format&fit=crop&w=800&h=600&q=70"
+                   width="800" height="600" alt="Stylizacja paznokci" loading="lazy" decoding="async">
+            </div>
+            <div class="service-body">
+              <h3>Stylizacja paznokci</h3>
+              <p>Manicure hybrydowy i japoński, przedłużanie metodą żelową, zdobienia i regeneracja płytki.</p>
+              <p class="service-price">od 120 zł</p>
+            </div>
+          </li>
+          <li class="service-card">
+            <div class="service-media">
+              <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&h=600&q=70"
+                   width="800" height="600" alt="Makijaż permanentny" loading="lazy" decoding="async">
+            </div>
+            <div class="service-body">
+              <h3>Makijaż permanentny</h3>
+              <p>Brwi metodą pudrową i ombré, kreska na powiece, usta w technice aquarell. Konsultacja i korekta w cenie.</p>
+              <p class="service-price">od 650 zł</p>
+            </div>
+          </li>
+          <li class="service-card">
+            <div class="service-media">
+              <img src="https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?auto=format&fit=crop&w=800&h=600&q=70"
+                   width="800" height="600" alt="Stylizacja rzęs i brwi" loading="lazy" decoding="async">
+            </div>
+            <div class="service-body">
+              <h3>Rzęsy i brwi</h3>
+              <p>Przedłużanie rzęs metodą 1:1 i objętościową, lifting, laminacja brwi i henna pudrowa.</p>
+              <p class="service-price">od 150 zł</p>
+            </div>
+          </li>
+          <li class="service-card">
+            <div class="service-media">
+              <img src="https://images.unsplash.com/photo-1731514771613-991a02407132?auto=format&fit=crop&w=800&h=600&q=70"
+                   width="800" height="600" alt="Zabiegi SPA" loading="lazy" decoding="async">
+            </div>
+            <div class="service-body">
+              <h3>Zabiegi SPA</h3>
+              <p>Masaż twarzy Kobido, rytuały dłoni i stóp, peelingi ciała. Wyciszenie i regeneracja w jednej wizycie.</p>
+              <p class="service-price">od 200 zł</p>
+            </div>
+          </li>
+          <li class="service-card">
+            <div class="service-media">
+              <img src="https://images.unsplash.com/photo-1647004692483-c5d942fe1137?auto=format&fit=crop&w=800&h=600&q=70"
+                   width="800" height="600" alt="Depilacja" loading="lazy" decoding="async">
+            </div>
+            <div class="service-body">
+              <h3>Depilacja woskiem</h3>
+              <p>Depilacja ciepłym woskiem i pastą cukrową, łagodna dla skóry wrażliwej, z pielęgnacją po zabiegu.</p>
+              <p class="service-price">od 60 zł</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery section" id="realizacje" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Realizacje</p>
+          <h2 id="gallery-title">Efekty naszych klientek</h2>
+          <p class="section-sub">Zdjęcia z prawdziwych wizyt. Kliknij, żeby powiększyć.</p>
+        </header>
+
+        <ul class="gallery-grid" data-gallery>
+          <li><button class="gallery-item" data-full="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=1400&q=75" aria-label="Powiększ zdjęcie 1">
+            <img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=600&h=750&q=70" width="600" height="750" alt="Realizacja pielęgnacyjna" loading="lazy" decoding="async"></button></li>
+          <li><button class="gallery-item" data-full="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1400&q=75" aria-label="Powiększ zdjęcie 2">
+            <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=600&h=750&q=70" width="600" height="750" alt="Makijaż wykonany w studiu" loading="lazy" decoding="async"></button></li>
+          <li><button class="gallery-item" data-full="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1400&q=75" aria-label="Powiększ zdjęcie 3">
+            <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=600&h=750&q=70" width="600" height="750" alt="Detal zabiegu kosmetycznego" loading="lazy" decoding="async"></button></li>
+          <li><button class="gallery-item" data-full="https://images.unsplash.com/photo-1589710751893-f9a6770ad71b?auto=format&fit=crop&w=1400&q=75" aria-label="Powiększ zdjęcie 4">
+            <img src="https://images.unsplash.com/photo-1589710751893-f9a6770ad71b?auto=format&fit=crop&w=600&h=750&q=70" width="600" height="750" alt="Pielęgnacja skóry twarzy" loading="lazy" decoding="async"></button></li>
+          <li><button class="gallery-item" data-full="https://images.unsplash.com/photo-1551184451-76b762941ad6?auto=format&fit=crop&w=1400&q=75" aria-label="Powiększ zdjęcie 5">
+            <img src="https://images.unsplash.com/photo-1551184451-76b762941ad6?auto=format&fit=crop&w=600&h=750&q=70" width="600" height="750" alt="Stylizacja w studiu Luméa" loading="lazy" decoding="async"></button></li>
+          <li><button class="gallery-item" data-full="https://images.unsplash.com/photo-1610992015836-7c249d75782d?auto=format&fit=crop&w=1400&q=75" aria-label="Powiększ zdjęcie 6">
+            <img src="https://images.unsplash.com/photo-1610992015836-7c249d75782d?auto=format&fit=crop&w=600&h=750&q=70" width="600" height="750" alt="Efekt stylizacji paznokci" loading="lazy" decoding="async"></button></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials section section-muted" aria-labelledby="testi-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Opinie</p>
+          <h2 id="testi-title">Co mówią klientki</h2>
+        </header>
+        <ul class="testi-grid">
+          <li class="testi-card">
+            <p class="testi-quote">Pierwszy salon, w którym nikt mnie nie poganiał. Cera po serii kwasów wygląda tak, jak nie wyglądała od liceum.</p>
+            <p class="testi-author">Marta K.<span>manicure i pielęgnacja twarzy</span></p>
+          </li>
+          <li class="testi-card">
+            <p class="testi-quote">Brwi metodą pudrową robione tu trzymają się idealnie po roku. Naturalnie, bez efektu narysowanej kreski.</p>
+            <p class="testi-author">Joanna W.<span>makijaż permanentny</span></p>
+          </li>
+          <li class="testi-card">
+            <p class="testi-quote">Masaż Kobido to mój stały rytuał co dwa tygodnie. Wychodzę odprężona i z lepszym owalem twarzy.</p>
+            <p class="testi-author">Aleksandra P.<span>zabiegi SPA</span></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="blog section" id="blog" aria-labelledby="blog-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Blog</p>
+          <h2 id="blog-title">Z gabinetu</h2>
+          <p class="section-sub">Praktyczna wiedza o pielęgnacji, bez marketingowych obietnic.</p>
+        </header>
+
+        <ul class="blog-grid">
+          <li class="blog-card">
+            <a href="#blog" class="blog-link">
+              <div class="blog-media">
+                <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=800&h=520&q=70" width="800" height="520" alt="Pielęgnacja skóry zimą" loading="lazy" decoding="async">
+              </div>
+              <div class="blog-body">
+                <p class="blog-meta">12 czerwca 2026 · Pielęgnacja</p>
+                <h3>Skóra zimą: dlaczego krem z lata przestaje działać</h3>
+                <p>Niższa wilgotność i ogrzewanie zmieniają potrzeby cery. Co realnie warto zmienić w rutynie.</p>
+                <span class="blog-more">Czytaj więcej</span>
+              </div>
+            </a>
+          </li>
+          <li class="blog-card">
+            <a href="#blog" class="blog-link">
+              <div class="blog-media">
+                <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&h=520&q=70" width="800" height="520" alt="Manicure hybrydowy" loading="lazy" decoding="async">
+              </div>
+              <div class="blog-body">
+                <p class="blog-meta">28 maja 2026 · Paznokcie</p>
+                <h3>Hybryda a żel: który manicure wybrać i kiedy</h3>
+                <p>Trwałość, regeneracja płytki, koszt w skali roku. Porównanie bez wciskania droższej opcji.</p>
+                <span class="blog-more">Czytaj więcej</span>
+              </div>
+            </a>
+          </li>
+          <li class="blog-card">
+            <a href="#blog" class="blog-link">
+              <div class="blog-media">
+                <img src="https://images.unsplash.com/photo-1587729927069-ef3b7a5ab9b4?auto=format&fit=crop&w=800&h=520&q=70" width="800" height="520" alt="Pielęgnacja po makijażu permanentnym" loading="lazy" decoding="async">
+              </div>
+              <div class="blog-body">
+                <p class="blog-meta">9 maja 2026 · Makijaż permanentny</p>
+                <h3>Pierwsze 14 dni po makijażu permanentnym brwi</h3>
+                <p>Co jest normą, a co sygnałem do kontaktu z gabinetem. Dzień po dniu.</p>
+                <span class="blog-more">Czytaj więcej</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section section-muted" id="kontakt" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow">Kontakt</p>
+          <h2 id="contact-title">Umów wizytę</h2>
+          <p>Wypełnij formularz albo zadzwoń. Odpowiadamy tego samego dnia roboczego i potwierdzamy termin SMS-em.</p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Adres</span>
+              <a href="https://maps.google.com/?q=Mokotowska+12+Warszawa">ul. Mokotowska 12, 00-561 Warszawa</a>
+            </li>
+            <li>
+              <span class="contact-label">Telefon</span>
+              <a href="tel:+48221234567">+48 22 123 45 67</a>
+            </li>
+            <li>
+              <span class="contact-label">E-mail</span>
+              <a href="mailto:kontakt@lumea-studio.pl">kontakt@lumea-studio.pl</a>
+            </li>
+            <li>
+              <span class="contact-label">Godziny</span>
+              <span>pon.–pt. 9:00–20:00, sob. 9:00–16:00</span>
+            </li>
+          </ul>
+
+          <div class="map-embed">
+            <iframe
+              title="Mapa dojazdu do studia Luméa"
+              src="https://www.google.com/maps?q=Mokotowska%2012%20Warszawa&output=embed"
+              width="600" height="320" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <form class="contact-form" novalidate data-form>
+          <p class="form-status" role="status" aria-live="polite" data-form-status hidden></p>
+
+          <div class="field">
+            <label for="name">Imię i nazwisko <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+            <p class="field-error" data-error-for="name" hidden></p>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="email">E-mail <span class="req" aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+              <p class="field-error" data-error-for="email" hidden></p>
+            </div>
+            <div class="field">
+              <label for="phone">Telefon</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel">
+              <p class="field-error" data-error-for="phone" hidden></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="service">Usługa</label>
+            <select id="service" name="service">
+              <option value="">Wybierz usługę</option>
+              <option>Pielęgnacja twarzy</option>
+              <option>Stylizacja paznokci</option>
+              <option>Makijaż permanentny</option>
+              <option>Rzęsy i brwi</option>
+              <option>Zabiegi SPA</option>
+              <option>Depilacja</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="message">Wiadomość <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <p class="field-error" data-error-for="message" hidden></p>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Wyślij zgłoszenie</button>
+          <p class="form-note">Demo: formularz waliduje dane po stronie przeglądarki i nie wysyła ich nigdzie.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="brand">Lum<span class="brand-accent">é</span>a</p>
+        <p>Studio kosmetyczne z duszą. Twarz, paznokcie, SPA. Warszawa, Mokotowska 12.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Stopka">
+        <p class="footer-head">Studio</p>
+        <ul>
+          <li><a href="#o-nas">O nas</a></li>
+          <li><a href="#uslugi">Usługi</a></li>
+          <li><a href="#realizacje">Realizacje</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <p class="footer-head">Kontakt</p>
+        <ul>
+          <li><a href="tel:+48221234567">+48 22 123 45 67</a></li>
+          <li><a href="mailto:kontakt@lumea-studio.pl">kontakt@lumea-studio.pl</a></li>
+          <li>pon.–pt. 9:00–20:00</li>
+          <li>sob. 9:00–16:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Luméa Studio Kosmetyczne. Projekt demonstracyjny.</p>
+      <p>Realizacja: statyczny HTML/CSS, Lighthouse-first.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" data-lightbox hidden>
+    <button class="lightbox-close" data-lightbox-close aria-label="Zamknij">&times;</button>
+    <img class="lightbox-img" data-lightbox-img src="" alt="Powiększone zdjęcie realizacji">
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
