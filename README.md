@@ -7,7 +7,7 @@ builder. Just semantic HTML, one CSS file, and ~160 lines of vanilla JS.
 
 **Live demo:** https://helban.github.io/beauty-salon-demo/
 
-![Luméa beauty salon demo](https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1200&q=60)
+![Luméa beauty salon demo — homepage hero](preview.jpg)
 
 ## Why it exists
 
