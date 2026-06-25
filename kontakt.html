@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Kontakt i rezerwacja — Luméa Studio Kosmetyczne, Warszawa</title>
+  <meta name="description" content="Umów wizytę w studiu Luméa: ul. Mokotowska 12 w Warszawie, +48 22 123 45 67. Formularz kontaktowy, godziny otwarcia i mapa dojazdu.">
+  <meta name="theme-color" content="#8C5560">
+  <link rel="canonical" href="https://lumea-studio.pl/kontakt.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:site_name" content="Luméa Studio Kosmetyczne">
+  <meta property="og:title" content="Kontakt i rezerwacja — Luméa Studio Kosmetyczne">
+  <meta property="og:description" content="ul. Mokotowska 12, Warszawa. Formularz, godziny i mapa dojazdu.">
+  <meta property="og:url" content="https://lumea-studio.pl/kontakt.html">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=optional">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#tresc">Przejdź do treści</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        Lum<span class="brand-accent">é</span>a
+        <small>studio kosmetyczne</small>
+      </a>
+      <nav class="main-nav" aria-label="Nawigacja główna">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Otwórz menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul class="nav-list" id="nav-list">
+          <li><a href="o-nas.html">O nas</a></li>
+          <li><a href="uslugi.html">Usługi</a></li>
+          <li><a href="realizacje.html">Realizacje</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="kontakt.html" aria-current="page">Kontakt</a></li>
+          <li><a class="btn btn-primary nav-cta" href="kontakt.html">Rezerwacja</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="tresc">
+    <section class="page-header">
+      <div class="container">
+        <p class="eyebrow">Kontakt</p>
+        <h1>Umów wizytę</h1>
+        <p class="page-header-sub">Wypełnij formularz albo zadzwoń. Odpowiadamy tego samego dnia roboczego i potwierdzamy termin SMS-em.</p>
+      </div>
+    </section>
+
+    <section class="contact section" aria-label="Dane kontaktowe i formularz">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2>Dane studia</h2>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Adres</span>
+              <a href="https://maps.google.com/?q=Mokotowska+12+Warszawa">ul. Mokotowska 12, 00-561 Warszawa</a>
+            </li>
+            <li>
+              <span class="contact-label">Telefon</span>
+              <a href="tel:+48221234567">+48 22 123 45 67</a>
+            </li>
+            <li>
+              <span class="contact-label">E-mail</span>
+              <a href="mailto:kontakt@lumea-studio.pl">kontakt@lumea-studio.pl</a>
+            </li>
+            <li>
+              <span class="contact-label">Godziny</span>
+              <span>pon.–pt. 9:00–20:00, sob. 9:00–16:00</span>
+            </li>
+          </ul>
+
+          <div class="map-embed">
+            <iframe
+              title="Mapa dojazdu do studia Luméa"
+              src="https://www.google.com/maps?q=Mokotowska%2012%20Warszawa&output=embed"
+              width="600" height="320" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <form class="contact-form" novalidate data-form>
+          <p class="form-status" role="status" aria-live="polite" data-form-status hidden></p>
+
+          <div class="field">
+            <label for="name">Imię i nazwisko <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+            <p class="field-error" data-error-for="name" hidden></p>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="email">E-mail <span class="req" aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+              <p class="field-error" data-error-for="email" hidden></p>
+            </div>
+            <div class="field">
+              <label for="phone">Telefon</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel">
+              <p class="field-error" data-error-for="phone" hidden></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="service">Usługa</label>
+            <select id="service" name="service">
+              <option value="">Wybierz usługę</option>
+              <option>Pielęgnacja twarzy</option>
+              <option>Stylizacja paznokci</option>
+              <option>Makijaż permanentny</option>
+              <option>Rzęsy i brwi</option>
+              <option>Zabiegi SPA</option>
+              <option>Depilacja</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="message">Wiadomość <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <p class="field-error" data-error-for="message" hidden></p>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Wyślij zgłoszenie</button>
+          <p class="form-note">Demo: formularz waliduje dane po stronie przeglądarki i nie wysyła ich nigdzie.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="brand">Lum<span class="brand-accent">é</span>a</p>
+        <p>Studio kosmetyczne z duszą. Twarz, paznokcie, SPA. Warszawa, Mokotowska 12.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Stopka">
+        <p class="footer-head">Studio</p>
+        <ul>
+          <li><a href="o-nas.html">O nas</a></li>
+          <li><a href="uslugi.html">Usługi</a></li>
+          <li><a href="realizacje.html">Realizacje</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <p class="footer-head">Kontakt</p>
+        <ul>
+          <li><a href="tel:+48221234567">+48 22 123 45 67</a></li>
+          <li><a href="mailto:kontakt@lumea-studio.pl">kontakt@lumea-studio.pl</a></li>
+          <li>pon.–pt. 9:00–20:00</li>
+          <li>sob. 9:00–16:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Luméa Studio Kosmetyczne. Projekt demonstracyjny.</p>
+      <p>Realizacja: statyczny HTML/CSS, Lighthouse-first.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

@@ -1,9 +1,9 @@
 # Luméa — beauty salon website (demo)
 
-A single-page marketing site for a fictional beauty salon, built to show how a
-premium salon/spa site looks and performs when it is hand-coded instead of
-assembled from a heavy WordPress theme. No framework, no build step, no page
-builder. Just semantic HTML, one CSS file, and ~150 lines of vanilla JS.
+A multi-page marketing site (6 subpages) for a fictional beauty salon, built to
+show how a premium salon/spa site looks and performs when it is hand-coded instead
+of assembled from a heavy WordPress theme. No framework, no build step, no page
+builder. Just semantic HTML, one CSS file, and ~160 lines of vanilla JS.
 
 **Live demo:** https://helban.github.io/beauty-salon-demo/
 
@@ -21,7 +21,7 @@ which is usually the hardest part of those jobs to deliver on WordPress.
 
 | Brief requirement | How it is covered here |
 |---|---|
-| 6 sections | Hero, O nas, Usługi, Realizacje/Galeria, Blog, Kontakt (single-page, anchor nav) |
+| 6 subpages | Strona główna, O nas, Usługi, Realizacje/Galeria, Blog, Kontakt, each its own URL, title, and meta description |
 | Slider | Hero image slider, auto-advance + dot controls, pauses on hover |
 | Contact form | Client-side validation, inline errors, focus management, accessible status message |
 | Google Maps | Embedded map, lazy-loaded so it does not block first paint |
@@ -43,9 +43,14 @@ which is usually the hardest part of those jobs to deliver on WordPress.
 
 ```
 beauty-salon-demo/
-├── index.html        # all markup + structured data
+├── index.html        # homepage: hero + section teasers + structured data
+├── o-nas.html        # about
+├── uslugi.html       # services + pricing
+├── realizacje.html   # gallery + lightbox
+├── blog.html         # blog teasers
+├── kontakt.html      # contact form + map
 ├── css/styles.css    # design tokens + components, mobile-first
-├── js/main.js        # slider, lightbox, nav, form validation
+├── js/main.js        # slider, lightbox, nav, form validation (page-agnostic)
 ├── favicon.svg
 ├── robots.txt
 ├── sitemap.xml
